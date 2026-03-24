@@ -1,0 +1,32 @@
+(myenv) nvidia@brev-9p23rp0qr:/data/annapan/alxtu$ CUDA_VISIBLE_DEVICES=6 python per_patch/diagnostic_one_fold_rfecv.py
+Train samples: 1766
+Test samples : 54
+Features     : 25
+------------------------------------------------------------
+Running RFE once to get feature ranking...
+RFE ranking completed in 3.35 minutes
+
+Evaluating performance for k = 1..N features
+Evaluating k: 100%|███████████████████████████████████████████████████████████████████| 25/25 [03:18<00:00,  7.95s/it]
+
+=== MODEL-SELECTED RESULT ===
+Best k (by R²): 12
+R²  : 0.4940
+MAE : 0.1343
+
+Selected features:
+  - original_shape2D_PerimeterSurfaceRatio
+  - original_gldm_DependenceNonUniformityNormalized
+  - original_shape2D_Sphericity
+  - original_firstorder_Kurtosis
+  - original_firstorder_RootMeanSquared
+  - original_gldm_SmallDependenceLowGrayLevelEmphasis
+  - original_firstorder_10Percentile
+  - original_ngtdm_Contrast
+  - original_firstorder_Maximum
+  - original_glrlm_LongRunEmphasis
+  - original_firstorder_90Percentile
+  - original_shape2D_Elongation
+
+Saved diagnostic results to /data/annapan/alxtu/per_patch/diagnostic_res/diagnostic_rfe_k_curve.csv
+(myenv) nvidia@brev-9p23rp0qr:/data/annapan/alxtu$ 

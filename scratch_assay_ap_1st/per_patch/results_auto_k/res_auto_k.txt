@@ -1,0 +1,7 @@
+==============================
+FINAL SUMMARY
+==============================
+   mean_best_k  std_best_k   mean_r2    var_r2  mean_mae   var_mae
+0    11.464286    6.489206  0.261795  0.058225  0.126215  0.000952
+
+Results saved to: /data/annapan/alxtu/per_patch/results_auto_k

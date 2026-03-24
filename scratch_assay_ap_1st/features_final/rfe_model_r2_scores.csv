@@ -1,0 +1,9 @@
+Feature_Set,Model,R2_Score
+All Features,RandomForest,0.373850118992634
+All Features,MLPRegressor,0.29631092677180826
+RFE Selected,RandomForest,0.35815338605290814
+RFE Selected,MLPRegressor,0.27039367013988524
+Threshold > 0.01,RandomForest,0.372475832170176
+Threshold > 0.01,MLPRegressor,0.29780232517874283
+Top-10 Features,RandomForest,0.36931438204321143
+Top-10 Features,MLPRegressor,0.24967339939449829
