@@ -31,19 +31,19 @@ Together, these components support a computational framework for predictive and 
 └── .gitignore
 ```
 
-01_Generative_Backbone_BBBC021
+**01_Generative_Backbone_BBBC021**
 
 Foundational validation of generative architectures including cVAE, cGAN, and DDPM using the BBBC021 benchmark dataset.
 
-02_Radiomics_Analysis_WoundHealing
+**02_Radiomics_Analysis_WoundHealing**
 
 Radiomic feature extraction and downstream machine learning pipelines for NCTC keratinocyte scratch assays, including predictive modeling with methods such as XGBoost, SVR, and Cellpose-SAM-assisted segmentation.
 
-03_Simulated_Wound_Trajectories
+**03_Simulated_Wound_Trajectories**
 
 Implementation of Conditional DDPM with Classifier-Free Guidance (CFG) for temporal microscopy image synthesis and biologically guided wound trajectory simulation.
 
-04_Scratch_Assay_LDM_Pipeline
+**04_Scratch_Assay_LDM_Pipeline**
 
 Latent Diffusion Model (LDM) workflow for efficient and higher-resolution scratch assay simulation, including extensions motivated by BBBC019 and related microscopy benchmarks.
 
