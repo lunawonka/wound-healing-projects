@@ -19,7 +19,7 @@ Wound healing is a dynamic and highly heterogeneous biological process. Experime
 Together, these components support a computational framework for predictive and interpretable regenerative medicine research.
 
 ## Repository Structure
-.
+```bash
 ├── 01_Generative_Backbone_BBBC021/
 ├── 02_Radiomics_Analysis_WoundHealing/
 ├── 03_Simulated_Wound_Trajectories/
@@ -29,7 +29,7 @@ Together, these components support a computational framework for predictive and 
 ├── visualizations/
 ├── README.md
 └── .gitignore
-
+```
 
 01_Generative_Backbone_BBBC021
 
