@@ -57,3 +57,6 @@ Multimodal Metadata Integration & Feature Profiling: Leveraging NVIDIA-accelerat
 Pipeline Scalability via MONAI: We utilized the MONAI framework for GPU-accelerated preprocessing of the BBBC019 and private PBM datasets. The A100’s high VRAM enabled the deployment of Cellpose-SAM for high-throughput instance segmentation, processing thousands of cell masks in parallel—a workflow that was computationally inaccessible on standard local hardware.
 
 
+## Acknowledgment
+
+This work was supported through access to NVIDIA A100 Tensor Core GPUs provided by the NVIDIA Hardware Grant Program. We gratefully acknowledge NVIDIA for supporting the computational infrastructure used in this project.
