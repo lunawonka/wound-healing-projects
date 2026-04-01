@@ -1,0 +1,17 @@
+# NVIDIA NeMo Framework Alignment Config
+model:
+  name: "Conditional_DDPM_Wound"
+  trainer:
+    precision: 16  # To use A100 Tensor Cores (FP16)
+    accelerator: "gpu"
+    devices: 1
+  
+  diffusion:
+    steps: 1000
+    beta_start: 0.0001
+    beta_end: 0.02
+    
+  dataset:
+    name: "BBBC019_Wound_Healing"
+    resolution: 64
+    
